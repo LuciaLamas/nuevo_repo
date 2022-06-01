@@ -1,0 +1,17 @@
+.video1{
+    position:relative;
+    width: 25%;
+    font-size: 30px
+    height: 40vh;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 12px 50px;
+    height: 350px;
+    transition: height 3s;
+    transform: translate(350px, -150px);
+}
+.video1:hover{
+height: 600px;
+}
