@@ -15,3 +15,13 @@
 .video1:hover{
 height: 600px;
 }
+.imagen{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    transition: height 1s;
+    flex-grow: space-arround;
+}
+.imagen:hover{
+    height: 400px;
+}
