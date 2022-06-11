@@ -49,8 +49,8 @@ li{
     font-size: 20px;
    }
 body{
-    background-image: url("../IMAG/Copia\ de\ Portada\ Fb.jpg")
-
+    background-image: url("../IMAG/Copia\ de\ Portada\ Fb.jpg");
+    height: 200px;
 }
 .card{
     width: 900px;
@@ -175,7 +175,7 @@ footer{
     background-color: rgb(92, 223, 180);
     height: 5vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .sec1{
