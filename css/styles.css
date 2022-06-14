@@ -197,7 +197,7 @@ footer{
     justify-content: center;
     align-items: center;
     transform: translate(10px, -130px);
-    height: 100px;
+    height: 150px;
     transition: height 2s;
 }
 .texto:hover{
@@ -243,8 +243,6 @@ section#Habilidades{
     text-decoration: none;
 
 }
-.tabla{
-    transform: translate(10px, -100px);
 }
 .contacto{
     transform: translate(10px, -190px);
