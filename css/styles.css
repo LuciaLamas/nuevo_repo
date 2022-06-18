@@ -140,7 +140,7 @@ body{
 .video1{
     position:relative;
     width: 25%;
-    font-size: 20px
+    font-size: 20px;
     height: 30vh;
     display: inline-block;
     flex-wrap: wrap;
@@ -157,7 +157,7 @@ height: 550px;
 .video2{
     position:relative;
     width: 25%;
-    font-size: 20px
+    font-size: 20px;
     height: 20vh;
     flex-wrap: wrap;
     padding: 10px 10px 12px 30px;
@@ -243,7 +243,7 @@ section#Habilidades{
     text-decoration: none;
 
 }
-}
+
 .contacto{
     transform: translate(10px, -190px);
 }
@@ -255,7 +255,6 @@ section#Habilidades{
     margin-left: 320px;
     transform: translate(10px, -100px);
 }
-
 
 /*media queries*/
 
@@ -341,6 +340,3 @@ section#Habilidades{
             grid-template-columns: repeat(2, 1fr);
         }
 }
-
-
-
