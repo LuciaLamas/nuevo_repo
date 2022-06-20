@@ -62,6 +62,7 @@ background: linear-gradient(0deg, rgba(92,223,180,1) 25%, rgba(225,160,122,1) 65
     Padding: 10px 20px 12px 80px;
     display: inline-block;
     transform: translate(40px, -100px);
+    color: lightgreen;
 }
 .secciones{
     text-decoration: none;
@@ -69,6 +70,7 @@ background: linear-gradient(0deg, rgba(92,223,180,1) 25%, rgba(225,160,122,1) 65
     Padding: 00px 20px 12px 80px;
     display: inline-block;
     transform: translate(10px, -80px);
+    color: lightgreen;
 }
 .videoyedades{
     margin :left 30px;
