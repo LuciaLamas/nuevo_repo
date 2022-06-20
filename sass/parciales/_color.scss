@@ -1,3 +1,8 @@
-.titulo{
-    background-color: $colorfondo rgb(131, 223, 193);
-}
+$rainbow: purple blue aqua green lime yellow orange tomato red pink;
+    @for $i from 1 through 10 {
+        .grilla
+            div:nth-child(#{$i})
+             {
+                color: nth ($rainbow, $i);
+            }
+        }
