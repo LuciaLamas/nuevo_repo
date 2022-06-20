@@ -3,7 +3,7 @@
     font-size: 60px;
     padding: 0px 0px 0px 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: $verde;
+    background-color: $colorfondo;
     height: 25vh;
     display: flex;
     justify-content: center;
@@ -340,3 +340,4 @@ section#Habilidades{
             grid-template-columns: repeat(2, 1fr);
         }
 }
+@import "parciales/_grilla.scss"

@@ -237,6 +237,13 @@ footer {
   border: 4px solid black;
   background-color: rgb(219, 243, 219);
   transform: translate(10px, -150px);
+
+  @for $i from 1 through 10 {
+    li:nth-child(#{$i}) {
+        color: nth ($rainbow, $i);
+    }
+} 
+
 }
 
 header {
@@ -367,4 +374,5 @@ section#Habilidades {
     grid-template-columns: repeat(2, 1fr);
   }
 }/*# sourceMappingURL=main.css.map */
-@import "./parciales/_color.scss"
+@import url(./parciales/_color.scss);
+@import url(./parciales/_grilla);

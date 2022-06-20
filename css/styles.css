@@ -209,15 +209,17 @@ footer{
     display: grid;
     grid-template-areas: 
     "nav Nombres"
-    "nav Habilidades"
     "nav Edad";
-    grid-template-rows: 150px 2fr 2fr 90px;
+    grid-template-rows: 200px 2,5fr 2,5fr 100px;
     grid-template-columns: 20% auto 15%;
     justify-content: center;
     border: 4px solid black;
     background-color: rgb(219, 243, 219);
     transform: translate(10px, -150px);
-}
+    
+
+ }
+
 header{
     grid-area: header;
 }
@@ -340,3 +342,4 @@ section#Habilidades{
             grid-template-columns: repeat(2, 1fr);
         }
 }
+@import "parciales/_grilla.scss"
