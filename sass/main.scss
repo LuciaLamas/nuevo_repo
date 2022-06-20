@@ -339,5 +339,8 @@ section#Habilidades{
             grid-template-columns: repeat(2, 1fr);
         }
 }
-@import "parciales/_color";
+
+@import "./parciales/grilla";
+
+
 
