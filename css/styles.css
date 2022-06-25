@@ -3,7 +3,6 @@
     font-size: 60px;
     padding: 0px 0px 0px 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #e1a07a;
     height: 25vh;
     display: flex;
     justify-content: center;
@@ -49,8 +48,8 @@ li{
     font-size: 20px;
    }
 body{
-    background: rgb(92,223,180);
-background: linear-gradient(0deg, rgba(92,223,180,1) 25%, rgba(225,160,122,1) 65%);
+    background: rgb(219,52,52);
+    background: linear-gradient(0deg, rgba(219,52,52,0.32816876750700286) 26%, rgba(76,255,255,0.48503151260504207) 66%);
 }
 .card{
     width: 900px;
