@@ -166,13 +166,9 @@ body{
   display: flex;
   flex-direction: row;
   height: 300px;
-  transition: height 3s;
   transform: translate(450px, -110px);
+}
 
-}
-.video2:hover{
-height: 550px;
-}
 footer{
   background-color: #eb7575;
   height: 5vh;
@@ -192,14 +188,15 @@ footer{
   align-items: center;
 }
 .texto{
-  color: coral;
+  color: #db3434;
   padding: 10px 10px 12px 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: translate(10px, -130px);
-  height: 150px;
+  height: 180px;
   transition: height 2s;
+  font-style: strong;
 }
 .texto:hover{
   height: 200px;
