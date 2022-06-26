@@ -178,23 +178,60 @@ section#Habilidades {
 @media screen and (min-width: 320px) {
   #grilla {
     grid-template-columns: repeat(2, 1fr); }
-  .border {
+   .border {
     border: 4px solid black;
     background-color: #dbf3db; }
-  .tabla {
+  .footer {
     grid-template-columns: repeat(2, 1fr); }
-  .video1 {
+  .RS {
     grid-template-columns: repeat(2, 1fr); }
-  .titulo {
+ .navbar navbar-inverse{
+  grid-template-columns: repeat(2, 1fr); }
+ .presentacion{
+  grid-template-columns: repeat(2, 1fr)
+ }
+ .portada{
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   height: 50vh;
+    }
+    .logo{
+     display: flex;
+     grid-template-columns: repeat(2, 1fr);
+      }
+   .titulo {
     grid-template-columns: repeat(2, 1fr);
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    align-content: center;
+  }
   .subtitulo {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center; }
-  .logo {
-    grid-template-columns: repeat(2, 1fr); } }
+  }
+  .contacto{
+    grid-template-columns: repeat(2, 1fr)
+   }
+  .epigrafe{
+    grid-template-columns: repeat(2, 1fr)
+   }
+  .myCarousel{
+    grid-template-columns: repeat(2, 1fr)
+   }
+  .videoyedades{
+    grid-template-columns: repeat(2, 1fr)
+   }
+  .vinculos{
+    grid-template-columns: repeat(2, 1fr)
+   }
 
 .grilla
 div:nth-child(1) {
