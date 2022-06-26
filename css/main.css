@@ -1,55 +1,33 @@
-.titulo {
-  color: orangered;
-  font-size: 60px;
-  padding: 0px 0px 0px 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.subtitulo1 {
-  color: #eb7575;
-  font-size: 40px;
-  margin: left 70px;
-  padding: 0px 0px 0px 60px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  height: 10vh;
-  display: flex;
+.portada{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  transform: translate(0px, -180px); }
-
-.subtitulo3 {
-  color: #eb7575;
-  font-size: 40px;
-  margin: left 70px;
-  padding: 0px 0px 0px 130px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(0px, -110px); }
+  align-content: center;
+  height: 50vh;
+}
+  .titulo {
+   color: orangered;
+   font-size: 60px;
+   padding: 0px 0px 0px 50px;
+   height: 25vh;
+   display: flex; 
+  }
+  .logo{
+    display: flex;
+  }
 
 .subtitulo {
   color: #eb7575;
   font-size: 40px;
   margin: left 70px;
   padding: 0px 0px 0px 130px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center; }
 
-li {
-  color: blue;
-  font-size: 20px; }
-
-.secciones{
-  background-color: #5cdfb4;
-}
 .navbar navbar-inverse{
   background-color: #5cdfb4;
 }
@@ -60,34 +38,27 @@ body {
 
 .card {
   width: 900px;
-  height: 300px; }
+  height: 300px; 
+}
 
 .videoyedades {
-  margin: left 30px;
-  Padding: 00px 20px 12px 80px;
-  display: inline-block; }
-
-.Redes {
-  color: orangered;
-  font-size: 50px;
-  padding: 5px 10px 12px 90px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  background-color: #5cdfb4;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.contacto {
-  color: orangered;
-  font-size: 50px;
-  padding: 5px 10px 12px 90px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  background-color: #5cdfb4;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  display: flex; 
+  flex-direction: row;
+  justify-content:  space-around;
+  align-items: center;
+  
+}
+  #grilla {
+    grid-area: auto;
+    display: grid;
+    grid-template-areas: "nav Nombres"
+   "nav Edad";
+    grid-template-rows: 400px 6fr 6fr 20px;
+    grid-template-columns: 20% auto 15%;
+    justify-content: space-between;
+    border: 4px solid black;
+    font-size: x-large;
+   }
 
 .fotos {
   color: orangered;
@@ -95,28 +66,6 @@ body {
   padding: 5px 10px 12px 90px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   background: linear-gradient(#5cdfb4, #e3b9a9);
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.empresas {
-  color: orangered;
-  font-size: 50px;
-  padding: 5px 10px 12px 90px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  background-color: #5cdfb4;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.nosotrxs {
-  color: orangered;
-  font-size: 50px;
-  padding: 5px 10px 12px 90px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  background-color: #5cdfb4;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -134,71 +83,33 @@ body {
   align-items: center;
   transform: translate(10px, -110px); }
 
-.video1 {
-  position: relative;
-  width: 25%;
-  font-size: 20px;
-  height: 30vh;
-  display: inline-block;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px 12px 50px;
-  height: 300px;
-  transition: height 3s;
-  transform: translate(350px, -110px); }
 
-.video2 {
-  position: relative;
-  width: 25%;
-  font-size: 20px;
-  height: 20vh;
-  flex-wrap: wrap;
-  padding: 10px 10px 12px 30px;
-  display: flex;
+.presentacion {
+  display: flex; 
   flex-direction: row;
-  height: 300px;
-  transition: height 3s;
-  transform: translate(450px, -110px); }
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+    
+}
+  .texto {
+   color: coral;
+   display: grid;
+   font-size: large;
+  }
 
 footer {
   background-color: #eb7575;
   height: 5vh;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.sec1 {
-  color: blue;
-  font-size: 20px;
-  padding: 5px 10px 12px 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  background-color: lightsalmon;
-  height: 10vh;
-  display: flex;
+  flex direction: row;
+  flex-wrap: nowrap; 
   justify-content: center;
-  align-items: center; }
-
-.texto {
-  color: coral;
-  padding: 10px 10px 12px 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(10px, -130px);
-  height: 150px; 
+  align-items: center; 
+  align-content: baseline;
 }
-
-#grilla {
-  grid-area: auto;
-  display: grid;
-  grid-template-areas: "nav Nombres"
- "nav Edad";
-  grid-template-rows: 200px 2,5fr 2,5fr 90px;
-  grid-template-columns: 20% auto 15%;
-  justify-content: space-between;
-  border: 4px solid black;
-  transform: translate(10px, -150px); }
 
 header {
   grid-area: header; }
@@ -211,9 +122,6 @@ section#Nombres {
 
 section#Habilidades {
   grid-area: Habilidades; }
-
-.logo {
-  transform: translate(10px, -160px); }
 
 .RS {
   transform: translate(10px, -100px);
@@ -232,7 +140,7 @@ section#Habilidades {
   align-items: center;
   padding: 30px;
   margin-left: 320px;
-  transform: translate(10px, -100px); }
+ }
 
 /*media queries*/
 @media screen and (min-width: 768px) {
@@ -246,10 +154,6 @@ section#Habilidades {
   .video1 {
     grid-template-columns: repeat(4, 1fr); }
   .titulo {
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    align-items: center; }
-  .subtitulo1 {
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center; }
@@ -273,10 +177,6 @@ section#Habilidades {
   .video1 {
     grid-template-columns: repeat(2, 1fr); }
   .titulo {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center; }
-  .subtitulo1 {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center; }
@@ -326,14 +226,3 @@ div:nth-child(9) {
 .grilla
 div:nth-child(10) {
   color: nth purple blue aqua green lime yellow orange tomato red pink, 10; }
-
-#grilla {
-  grid-area: auto;
-  display: grid;
-  grid-template-areas: "nav Nombres"
- "nav Edad";
-  grid-template-rows: 150px 2fr 2fr 90px;
-  grid-template-columns: 20% auto 15%;
-  justify-content: center;
-  border: 4px solid black;
-  transform: translate(10px, -150px); }
