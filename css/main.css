@@ -186,7 +186,8 @@ section#Habilidades {
   .RS {
     grid-template-columns: repeat(2, 1fr); }
  .navbar navbar-inverse{
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr); 
+}
  .presentacion{
   grid-template-columns: repeat(2, 1fr)
  }
@@ -211,11 +212,13 @@ section#Habilidades {
     justify-content: center;
     align-items: center;
     align-content: center;
+    
   }
   .subtitulo {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+     }
   }
   .contacto{
     grid-template-columns: repeat(2, 1fr)
