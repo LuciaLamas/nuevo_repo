@@ -1,7 +1,7 @@
 .portada{
   display: flex; 
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -28,7 +28,9 @@
   height: 10vh;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-content: center;
   align-items: center; }
   
 .carousel-inner {
@@ -48,7 +50,11 @@
   padding: 0px 0px 0px 100px;
   height: 10vh;
   flex-wrap: wrap;
-  display: flex;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 body {
@@ -63,8 +69,10 @@ body {
 .videoyedades {
   display: flex; 
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content:  space-around;
   align-items: center;
+  align-content: center;
   height: 100vh;
   margin: 10px;
   
@@ -91,6 +99,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   transform: translate(10px, -110px);
  }
 
