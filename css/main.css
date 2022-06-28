@@ -6,13 +6,15 @@
   align-items: center;
   align-content: center;
   height: 50vh;
+  margin: 10px;
 }
   .titulo {
    color: orangered;
    font-size: 70px;
    padding: 0px 0px 0px 50px;
    height: 25vh;
-   display: flex; 
+   display: flex;
+   margin-left: 20px; 
   }
   .logo{
     display: flex;
@@ -25,13 +27,17 @@
   padding: 0px 0px 0px 130px;
   height: 10vh;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
   
-.myCarousel {
+.carousel-inner {
   align-items: center;
+  display: flex;
   padding: 30px;
-  margin-left: 320px;
+  margin-left: 20px;
+  height: 640px; 
+  width: 480px;
  }
   
 
@@ -41,11 +47,8 @@
   margin: left 50px;
   padding: 0px 0px 0px 100px;
   height: 10vh;
-}
-
-
-.navbar navbar-inverse{
-  background-color: #5cdfb4;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 body {
@@ -63,6 +66,7 @@ body {
   justify-content:  space-around;
   align-items: center;
   height: 100vh;
+  margin: 10px;
   
 }
   #grilla {
@@ -87,47 +91,62 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(10px, -110px); }
+  transform: translate(10px, -110px);
+ }
 
 
 .presentacion {
   display: flex; 
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
   height: 110vh;
+  margin: 20px;
     
 }
   .texto {
    color: coral;
    display: grid;
    font-size: large;
+   height: 300px;
+   width: 400px; 
   }
 
 .footer {
   background-color: #eb7575;
+  padding: 30px;
+  margin: 10px;
   height: 6vh;
   display: flex;
   flex direction: row;
   flex-wrap: wrap; 
-  justify-content: space-between;
+  justify-content: center;
   align-items: center; 
   align-content: center;
 }
 .RS{  
   color: coral;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   font-size: large;
   text-decoration: none;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .vinculos {
   display: flex; 
   flex-direction: row;
-  justify-content:  space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   align-items: center;
   height: 100vh;
+  margin: 150px
 }
   .EMP{
     color: black;
@@ -141,6 +160,18 @@ body {
    font-size: large;
    text-decoration: none;
   }
+
+.contacto {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 100vh;
+  margin-left 150px;
+}
+
 header {
   grid-area: header; }
 
@@ -185,9 +216,6 @@ section#Habilidades {
     grid-template-columns: repeat(2, 1fr); }
   .RS {
     grid-template-columns: repeat(2, 1fr); }
- .navbar navbar-inverse{
-  grid-template-columns: repeat(2, 1fr); 
-}
  .presentacion{
   grid-template-columns: repeat(2, 1fr)
  }
@@ -226,7 +254,7 @@ section#Habilidades {
   .epigrafe{
     grid-template-columns: repeat(2, 1fr)
    }
-  .myCarousel{
+  .carousel-inner{
     grid-template-columns: repeat(2, 1fr)
    }
   .videoyedades{
