@@ -56,6 +56,19 @@
   align-items: center;
   align-content: center;
 }
+.datos{
+  color: #eb7575;
+  font-size: 30px;
+  margin: left 50px;
+  padding: 0px 0px 0px 100px;
+  height: 10vh;
+  flex-wrap: wrap;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
 body {
   background: #db3434;
@@ -117,10 +130,10 @@ body {
 }
   .texto {
    color: coral;
-   display: grid;
-   font-size: large;
-   height: 300px;
-   width: 400px; 
+   display: flex;
+   font-size: 20px;
+   height: 400px;
+   width: 500px; 
   }
 
 .footer {
@@ -135,6 +148,10 @@ body {
   align-items: center; 
   align-content: center;
 }
+.navbar{
+  text-decoration: none;
+  background-color: #eb7575;
+}
 .RS{  
   color: coral;
   display: flex;
@@ -143,7 +160,7 @@ body {
   font-size: large;
   text-decoration: none;
   height: 200px;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
 }
@@ -154,8 +171,8 @@ body {
   justify-content: center;
   align-items: center;
   align-items: center;
-  height: 100vh;
-  margin: 150px
+  height: 150px;
+  margin: 300px
 }
   .EMP{
     color: black;
@@ -171,14 +188,14 @@ body {
   }
 
 .contacto {
+  margin-left: 50px;
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-items: center;
-  height: 100vh;
-  margin-left 150px;
+  padding: 30px 10px 12px 0px;
 }
 
 header {
