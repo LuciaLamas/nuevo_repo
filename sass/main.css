@@ -213,7 +213,8 @@ footer {
 #grilla {
   grid-area: auto;
   display: grid;
-  grid-template-areas: "nav Nombres" "nav Edad";
+  grid-template-areas: "nav Nombres"
+ "nav Edad";
   grid-template-rows: 150px 2,5fr 2,5fr 90px;
   grid-template-columns: 20% auto 15%;
   justify-content: space-between;
@@ -350,7 +351,8 @@ div:nth-child(10) {
 #grilla {
   grid-area: auto;
   display: grid;
-  grid-template-areas: "nav Nombres" "nav Edad";
+  grid-template-areas: "nav Nombres"
+ "nav Edad";
   grid-template-rows: 150px 2fr 2fr 90px;
   grid-template-columns: 20% auto 15%;
   justify-content: center;
