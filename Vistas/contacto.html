@@ -14,7 +14,7 @@
     </head>
     <body>
      <header>
-      <nav class="navbar navbar-expand-sm navbar-dark">
+      <nav class="navbar navbar-expand-sm navbar-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img src="../IMAG/Sumando_fuerzas_2-removebg-preview.png" width= "35px" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -44,44 +44,69 @@
             </form>
           </div>
         </div>
-      </nav>
-      <div class="portada">
-        <h1 class="titulo">Contactate con Nosotrxs</h1>
-        <div class="logo">
-         <a href="../index.html"> <img src="../IMAG/arcoiris.png" width= "150px" alt=""> </a>
+      </nav>    
+     </header>
+     <div class="container">
+
+      <!-- FILA 1 -->
+      <div class="row">
+        <div class="col">
+          
+          <div class="portada">
+            <div class="col">
+              <h1 class="titulo">Contactate con Nosotrxs</h1>
+            </div>            
+            <div class="logo">
+             <a href="../index.html"> <img src="../IMAG/arcoiris.png" width= "150px" alt=""> </a> 
+            </div>
+          </div>    
         </div>
       </div>
-      
-     </header>
-     <h2 class="datos">Deja tus datos en el formulario si queres conocer más, sumarte al equipx, colaborar con nosotrxs o contarnos tu historia.</h2>
-     <div class="contacto">
-      <table>
-        <fieldset> Datos Personales
-          <form action="" method="get" ectype="text/plain">
+        <!-- FILA 2 -->
+  <div class="row">
+    <div class="col">
+      <h1 class="subtitulo">Deja tus datos en el formulario si queres conocer más, sumarte al equipx, colaborar con nosotrxs o contarnos tu historia.</h1>
+    </div>
+  </div>
+  <!-- FILA 3 -->
+  <div class="row">
+    <div class="col">
+      <div class="contacto">
+        <table>
+          <fieldset> Datos Personales
+            <form action="" method="get" ectype="text/plain">
+              <div>
+                <label for="Nombre de Usuario">Nombre</label>
+                <input type="text" name="" id="Nombre de Usuario">
+              </div>
+              <div>
+                <label for="User Mail">Mail</label>
+                <input type="text" name="" id="User Mail">
+              </div>
+              <div>
+                <label for="User text">Comentarios</label>
+                <Input:text><textarea name="User text" id="Comentarios" cols="30" rows="10"></textarea></Input:text>
+              </div>
+            </form>
             <div>
-              <label for="Nombre de Usuario">Nombre</label>
-              <input type="text" name="" id="Nombre de Usuario">
+              <button>Enviar</button>
             </div>
-            <div>
-              <label for="User Mail">Mail</label>
-              <input type="text" name="" id="User Mail">
-            </div>
-            <div>
-              <label for="User text">Comentarios</label>
-              <Input:text><textarea name="User text" id="Comentarios" cols="30" rows="10"></textarea></Input:text>
-            </div>
-          </form>
-          <div>
-            <button>Enviar</button>
-          </div>
-        </fieldset>
-      </table>
-     </div>
-                 <footer class="footer">
-                <h3>Gracias por sumarte a nuestrx proyecto </h3>
-                <a href="https://www.instagram.com/sumando.fuerzas/"> <img src="../IMAG/Instagram-removebg-preview.png" width= "35px" alt="Logo Instagram"></a>
-                <a href="https://www.facebook.com/sumandofuerzas.zonasur"> <img src="../IMAG/Facebook-removebg-preview.png" width= "35px" alt="Logo Facebook"></a>
-            </footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+          </fieldset>
+        </table>
+       </div>
+    </div>
+  </div>
+  <!-- FILA Footer -->
+  <div class="row">
+    <div class="col">
+      <footer class="footer">
+        <h3>Gracias por sumarte a nuestrx proyecto </h3> 
+        <a href="https://www.instagram.com/sumando.fuerzas/"> <img src="../IMAG/Instagram-removebg-preview.png" width= "35px" alt="Logo Instagram"></a>
+        <a href="https://www.facebook.com/sumandofuerzas.zonasur"> <img src="../IMAG/Facebook-removebg-preview.png" width= "35px" alt="Logo Facebook"></a>
+        </footer>
+    </div>
+  </div> 
+</div> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
     </body>
 </html>
