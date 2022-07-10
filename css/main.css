@@ -21,7 +21,7 @@
   }
 
 .subtitulo {
-  color: #eb7575;
+  color: #3443fc;
   font-size: 50px;
   margin: left 70px;
   padding: 0px 0px 0px 130px;
@@ -44,7 +44,7 @@
   
 
 .epigrafe{
-  color: black;
+  color: #3443fc;
   font-size: 20px;
   margin: left 50px;
   padding: 0px 0px 0px 100px;
@@ -71,8 +71,8 @@
 }
 
 body {
-  background: #db3434;
-  background: linear-gradient(0deg, rgba(219, 52, 52, 0.328169) 26%, rgba(76, 255, 255, 0.485032) 66%); }
+  background: rgb(255,128,61);
+  background: linear-gradient(0deg, rgba(255,128,61,0.32816876750700286) 26%, rgba(252,237,52,1) 92%); }
 
 .card {
   width: 900px;
@@ -142,15 +142,16 @@ body {
     
 }
   .texto {
-   color: coral;
+   color: #ff803d;
    display: flex;
    font-size: 20px;
    height: 400px;
    width: 500px; 
+   font-style: bold;
   }
 
 .footer {
-  background-color: #eb7575;
+  background-color: #ff803d;
   padding: 30px;
   margin: 10px;
   height: 6vh;
