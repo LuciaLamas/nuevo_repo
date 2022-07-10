@@ -93,21 +93,6 @@ body {
   margin: 10px;
   
 }
-.grupo {
-  color: #eb7575;
-  font-size: 40px;
-  margin: left 70px;
-  padding: 10px 10px 12px 90px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  transform: translate(10px, -110px);
- }
-
-
 .presentacion {
   display: flex; 
   flex-direction: row;
@@ -131,11 +116,7 @@ body {
   }
 
 .footer {
-<<<<<<< HEAD
-  background-color: orange;
-=======
   background-color: #ff7f00;
->>>>>>> entregafinal
   padding: 30px;
   margin: 10px;
   height: 6vh;
