@@ -29,7 +29,7 @@
   font-size: 50px;
   margin: left 30px;
   padding: 0px 0px 0px 100px;
-  height: 10vh;
+  height: 25vh;
   flex-wrap: nowrap;
   display: flex; 
   flex-direction: row;
@@ -50,13 +50,12 @@
   
 
 .epigrafe{
+  display: flex; 
   color: #3443fc;
   font-size: 20px;
-  margin: left 30px;
-  padding: 0px 0px 0px 100px;
-  height: 10vh;
-  flex-wrap: wrap;
-  display: flex; 
+  margin-left: 80px;
+  height: 30vh;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -118,14 +117,16 @@ body {
    text-align: justify;
    padding: -10px 10px 12px 0px;
    flex-direction: row;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
   }
 
 .footer {
   background-color: #ff7f00;
   padding: 30px;
   margin: 10px;
-  height: 6vh;
+  height: 10vh;
   display: flex;
   flex direction: row;
   flex-wrap: wrap; 
@@ -147,12 +148,12 @@ body {
 .vinculos {
   display: flex; 
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   align-items: center;
-  height: 300px;
-  margin: 150px;
+  height: 40vh;
+  margin: 50px;
   color: #ff5457;
   font-size: 20px;
 }
@@ -177,8 +178,7 @@ body {
   align-items: center;
   align-items: center;
   border: 1px solid black;
-  height: 400px;
-  margin-left: 300px;
+  height: 80vh;
 }
 
 header {
@@ -216,18 +216,10 @@ section#Habilidades {
     transform: translate(10px, -190px); } }
 
 @media screen and (min-width: 320px) {
-  #grilla {
-    grid-template-columns: repeat(2, 1fr); }
-   .border {
-    border: 4px solid black;
-    background-color: #dbf3db; }
+
   .footer {
-    grid-template-columns: repeat(2, 1fr); }
-  .RS {
-    grid-template-columns: repeat(2, 1fr); }
- .presentacion{
-  grid-template-columns: repeat(2, 1fr)
- }
+   grid-template-columns: repeat(2, 1fr); }
+  
  .portada{
    display: flex; 
    flex-direction: row;
@@ -261,7 +253,7 @@ section#Habilidades {
     grid-template-columns: repeat(2, 1fr)
    }
   .epigrafe{
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(1, 1fr)
    }
   .carousel-inner{
     grid-template-columns: repeat(2, 1fr)
