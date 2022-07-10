@@ -147,7 +147,6 @@ body {
   align-content: center;
 }
 .RS{  
-  color: coral;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -162,11 +161,13 @@ body {
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-items: center;
-  height: 150px;
-  margin: 300px
+  height: 300px;
+  margin: 150px;
+  color: #ff5457;
+  font-size: 20px;
 }
   .EMP{
     color: black;
