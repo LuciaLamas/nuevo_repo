@@ -85,15 +85,15 @@ body {
   height: 300px; 
 }
 
-.videoyedades {
+.videoytxt {
   display: flex; 
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content:  space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  height: 100vh;
-  margin: 10px;
+  height: 700px;
+  margin: 40px;
   
 }
 .presentacion {
@@ -115,7 +115,7 @@ body {
    width: 390px; 
    font-weight: bold;
    text-align: justify;
-   padding: -10px 10px 12px 0px;
+   padding: -10px 20px 12px 0px;
    flex-direction: row;
    flex-wrap: wrap;
    align-items: center;
