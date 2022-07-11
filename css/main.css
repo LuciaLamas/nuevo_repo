@@ -193,8 +193,6 @@ section#Habilidades {
 
 /*media queries*/
 @media screen and (min-width: 768px) {
-  #grilla {
-    grid-template-columns: repeat(4, 1fr); }
   .border {
     border: 4px solid black;
     background-color: #dbf3db; }
@@ -214,6 +212,7 @@ section#Habilidades {
     grid-template-columns: repeat(2, 1fr); }
   .tabla {
     transform: translate(10px, -190px); } }
+
 
 @media screen and (min-width: 320px) {
 
@@ -258,49 +257,9 @@ section#Habilidades {
   .carousel-inner{
     grid-template-columns: repeat(2, 1fr)
    }
-  .videoyedades{
+  .videoytxt{
     grid-template-columns: repeat(2, 1fr)
    }
   .vinculos{
     grid-template-columns: repeat(2, 1fr)
    }
-
-.grilla
-div:nth-child(1) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 1; }
-
-.grilla
-div:nth-child(2) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 2; }
-
-.grilla
-div:nth-child(3) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 3; }
-
-.grilla
-div:nth-child(4) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 4; }
-
-.grilla
-div:nth-child(5) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 5; }
-
-.grilla
-div:nth-child(6) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 6; }
-
-.grilla
-div:nth-child(7) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 7; }
-
-.grilla
-div:nth-child(8) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 8; }
-
-.grilla
-div:nth-child(9) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 9; }
-
-.grilla
-div:nth-child(10) {
-  color: nth purple blue aqua green lime yellow orange tomato red pink, 10; }
