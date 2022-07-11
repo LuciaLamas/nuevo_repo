@@ -1,7 +1,7 @@
 .portada{
   display: flex; 
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -16,18 +16,18 @@
    display: flex;
    margin-left: 20px; 
    flex-direction: row;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
   }
   .logo{
     display: flex;
     flex-direction: row;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
   }
 
 .subtitulo {
   color: #3443fc;
   font-size: 50px;
-  margin: left 30px;
+  margin: left 20px;
   padding: 0px 0px 0px 100px;
   height: 25vh;
   flex-wrap: nowrap;
@@ -42,18 +42,18 @@
 .carousel-inner {
   align-items: center;
   display: flex;
-  padding: 30px;
   margin-left: 80px;
   height: 640px; 
   width: 480px;
  }
+ 
   
 
 .epigrafe{
   display: flex; 
   color: #3443fc;
   font-size: 20px;
-  margin-left: 60px;
+  margin-left: 40px;
   height: 30vh;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -154,7 +154,7 @@ body {
   height: 80vh;
   color: #ff5457;
   font-size: 20px;
-  margin-left: 60px;
+  margin-left: 40px;
 }
   .EMP{
     color: black;
@@ -178,6 +178,7 @@ body {
   align-items: center;
   border: 1px solid black;
   height: 80vh;
+  margin-left: 30px;
 }
 
 header {
